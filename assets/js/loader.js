@@ -3,6 +3,7 @@ const loaderCircle1 = document.createElement('div');
 const loaderCircle2 = document.createElement('div');
 const mainBody = document.querySelector('html');
 loaderBG.classList.add('loader-bg')
+loaderBG.appendChild(loaderCircle1);
 loaderCircle1.classList.add('loader-1')
 loaderCircle2.classList.add('loader-2')
 
