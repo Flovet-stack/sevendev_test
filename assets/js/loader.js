@@ -6,13 +6,14 @@ loaderBG.classList.add('loader-bg')
 loaderCircle1.classList.add('loader-1')
 loaderCircle2.classList.add('loader-2')
 
+mainBody.appendChild(loaderBG);
 console.log(mainBody)
 document.addEventListener('readystatechange', () => {
     console.log(document.readyState)
 });
 
-if (document.readyState == 'interactive') {
-    mainBody.appendChild(loaderBG);
-} else if (document.readyState == 'complete') {
-    mainBody.appendChild(loaderBG);
-}
+// if (document.readyState == 'interactive') {
+//     mainBody.appendChild(loaderBG);
+// } else if (document.readyState == 'complete') {
+//     mainBody.appendChild(loaderBG);
+// }
