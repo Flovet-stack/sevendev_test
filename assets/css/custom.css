@@ -45,6 +45,7 @@ body {
     /* top: calc(50% - 50px);
     left: calc(50% - 50px); */
     position: absolute;
+    z-index: 13;
 }
 
 .items-baseline a:hover {
