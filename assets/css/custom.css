@@ -42,8 +42,9 @@ body {
     width: 100px;
     height: 100px;
     background-color: red;
-    /* top: calc(50% - 50px);
-    left: calc(50% - 50px); */
+    border-radius: 50%;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
     position: absolute;
     z-index: 13;
 }
