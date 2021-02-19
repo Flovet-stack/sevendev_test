@@ -14,5 +14,5 @@ document.addEventListener('readystatechange', () => {
 if (document.readyState == 'interactive') {
     mainBody.appendChild(loaderBG);
 } else if (document.readyState == 'complete') {
-    mainBody.appendChild(loaderBG);
+    mainBody.removeChild(loaderBG);
 }
