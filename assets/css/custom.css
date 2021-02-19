@@ -38,6 +38,14 @@ body {
     z-index: 10;
 }
 
+.loader-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
 .items-baseline a:hover {
     border-top: 2px dashed var(--blue-color);
     color: var(--yellow-color);

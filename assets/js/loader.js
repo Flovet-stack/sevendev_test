@@ -1,16 +1,18 @@
 const loaderBG = document.createElement('div');
+const loaderCircle1 = document.createElement('div');
+const loaderCircle2 = document.createElement('div');
 const mainBody = document.querySelector('html');
 loaderBG.classList.add('loader-bg')
+loaderCircle1.classList.add('loader-1')
+loaderCircle2.classList.add('loader-2')
 
 console.log(mainBody)
-
-mainBody.appendChild(loaderBG);
 document.addEventListener('readystatechange', () => {
     console.log(document.readyState)
 });
 
-// if (document.readyState == 'interactive') {
-//     mainBody.appendChild(loaderBG);
-// } else if (document.readyState == 'complete') {
-//     mainBody.appendChild(loaderBG);
-// }
+if (document.readyState == 'interactive') {
+    mainBody.appendChild(loaderBG);
+} else if (document.readyState == 'complete') {
+    mainBody.appendChild(loaderBG);
+}
